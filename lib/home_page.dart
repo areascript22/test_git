@@ -13,9 +13,14 @@ class _MyWidgetState extends State<MyWidget> {
     return  Column(children:[
       _buildSection1(),
       _buildecion2(),
+      _buildecion3(),
+      _buildecion4(),
     ]);
   }
 
   Widget _buildSection1() => Text("Section1");
   Widget _buildecion2() => Text("Sectino2");
+
+  Widget _buildecion3() => Text("Sectino2");
+  Widget _buildecion4() => Text("Sectino2");
 }
