@@ -15,6 +15,7 @@ class _MyWidgetState extends State<MyWidget> {
       _buildecion2(),
       _buildecion3(),
       _buildecion4(),
+      _buildecion5(),
     ]);
   }
 
@@ -23,4 +24,7 @@ class _MyWidgetState extends State<MyWidget> {
 
   Widget _buildecion3() => Text("Sectino2");
   Widget _buildecion4() => Text("Sectino2");
+
+
+  Widget _buildecion5() => Text("Sectino5");
 }
