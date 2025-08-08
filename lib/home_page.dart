@@ -10,6 +10,8 @@ class MyWidget extends StatefulWidget {
 class _MyWidgetState extends State<MyWidget> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return  _buildSection1();
   }
+
+  Widget _buildSection1() => Text("Section1");
 }
